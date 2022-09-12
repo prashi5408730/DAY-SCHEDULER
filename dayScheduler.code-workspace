@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "DAY_SHEDULER",
+			"path": "DAY_SHEDULER"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dayScheduler",
+		"liveServer.settings.port": 5501
+	}
+}

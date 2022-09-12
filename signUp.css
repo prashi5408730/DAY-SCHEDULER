@@ -1,0 +1,113 @@
+* {
+    overflow: hidden;
+    margin:0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#back-head {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 900;
+    color:rgb(166, 206, 237);
+}
+
+#formContainer {
+    text-align: left;
+    border: 1px solid rgb(194, 201, 217);
+    padding: 2em;
+    margin: auto 25vw;
+    height: 610px;
+    width: 430px;
+    box-shadow: 0px 0px 10px rgb(200, 202, 207);
+    border-radius: 10px;
+}
+
+#close-btn {
+    position: fixed;
+    top: 15%;
+    right: 23vw;
+    
+}
+
+
+#form-head {
+    font-size: 2em;
+}
+
+#head-text {
+    font-size: 0.5em;
+    font-weight: 200;
+}
+
+#heading {
+    border-bottom: 1px solid rgb(141, 161, 205);
+    padding-bottom: 0.7em;
+    margin-bottom: 1em;
+}
+
+#fname, #sname, #mobile, #email, #password {
+    height: 37px;
+    width: 49%;
+    border-radius: 2px;
+    border: 1.5px solid rgb(194, 201, 217);
+    background-color: rgb(235, 238, 243);
+    padding: 10px;
+}   
+#mobile, #email, #password {
+ margin-top: 1em;
+ width: 100% 
+}
+
+#emp, #gender {
+    margin-top: 17px;
+    font-size: 12px;
+}
+
+select {
+    width: 100%;
+    height: 37px;
+    padding: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1.6px solid rgb(194, 201, 217)
+}
+
+.gen {
+    min-width: 100px;
+    border-radius: 3px;
+    border: 1.6px solid rgb(194, 201, 217);
+    padding: 8px;
+    margin-right: 6px;
+    background-color: #fff;
+}
+
+.gen-inp {
+    margin-left: 4.315%;
+}
+
+.terms-text {
+    margin-top: 15px;
+    font-size: 11px;
+}
+
+#submit {
+    width: 50%;
+    margin-top: 15px;
+    height: 37px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 1000;
+    font-size: medium;
+    background-color: rgb(59, 163, 48);
+}
+
+
+
+
+.employement:last-of-type {
+    display: none;
+}
+
